@@ -1,0 +1,9 @@
+projection;
+use draft;
+define behavior for ZC_TRAVEL_M_DENIS_2 alias TravelProcessor
+use etag
+{
+  use create;
+  use update;
+  use delete;
+}
